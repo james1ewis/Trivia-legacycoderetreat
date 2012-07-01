@@ -6,7 +6,11 @@ using NUnit.Framework;
 namespace Trivia.Test
 {
     [TestFixture]
+<<<<<<< HEAD
     [UseReporter(typeof(WinMergeReporter))]
+=======
+    [UseReporter(typeof(KDiffReporter))]
+>>>>>>> origin/master
     public class CharacterizationTest
     {
         [Test]
